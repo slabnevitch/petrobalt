@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Regular.eot');
+    src: url('AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextCyr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('AvenirNextCyr-Bold.eot');
+    src: url('AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AvenirNextCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
