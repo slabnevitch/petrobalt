@@ -417,16 +417,16 @@ header {
   .main-screen {
     margin-top: -130px; }
   .main-screen-mark {
-    width: 20px;
-    height: 20px;
-    border: none;
-    background-color: rgba(0, 135, 223, 0.5); }
+    width: 30px;
+    height: 30px;
+    border: none; }
     .main-screen-mark__info {
       left: -20px; }
     .main-screen-mark__inner {
       width: 17.65px;
       height: 17.65px;
-      border: 2px solid rgba(0, 135, 223, 0.7); }
+      border: 2px solid rgba(0, 135, 223, 0.7);
+      border-color: transparent; }
     .main-screen-mark__icon {
       width: 14.71px;
       height: 14.71px;
@@ -435,8 +435,12 @@ header {
         display: block;
         max-width: 5px;
         max-height: 5px; }
-    .main-screen-mark:before, .main-screen-mark:after {
-      display: none; }
+    .main-screen-mark:before {
+      width: 27.65px;
+      height: 27.65px; }
+    .main-screen-mark:after {
+      width: 24.71px;
+      height: 24.71px; }
     .main-screen-mark:nth-child(10) .main-screen-mark__info, .main-screen-mark:nth-child(9) .main-screen-mark__info {
       right: -12px; } }
 
